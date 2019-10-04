@@ -21,6 +21,7 @@
         <Grid HorizontalAlignment="Left" Height="258" Margin="56,112,0,0" VerticalAlignment="Top" Width="675"/>
         <Button Content="Guardar" HorizontalAlignment="Left" Margin="567,389,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Cancelar" HorizontalAlignment="Left" Margin="668,389,0,0" VerticalAlignment="Top" Width="75"/>
+        
     </Grid>
 
 </Window>
