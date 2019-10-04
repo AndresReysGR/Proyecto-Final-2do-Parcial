@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIendita", "TIendita\TIendita.csproj", "{4F13F6AC-1C54-4CE9-ADA9-10D286428049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F13F6AC-1C54-4CE9-ADA9-10D286428049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F13F6AC-1C54-4CE9-ADA9-10D286428049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F13F6AC-1C54-4CE9-ADA9-10D286428049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F13F6AC-1C54-4CE9-ADA9-10D286428049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC977C35-664C-4980-B230-3BC900D0D796}
+	EndGlobalSection
+EndGlobal

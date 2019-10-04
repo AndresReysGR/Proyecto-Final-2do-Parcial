@@ -1,0 +1,26 @@
+﻿<Window x:Class="TIendita.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TIendita"
+        mc:Ignorable="d"
+        Title="Abarrotes" Height="450" Width="800">
+    <Grid>
+        <Label Content="Seleccione el producto deseado: " HorizontalAlignment="Left" Margin="40,61,0,0" VerticalAlignment="Top" Height="32" Width="185"/>
+        <Label Content="Los Reyes" HorizontalAlignment="Left" Margin="304,10,0,0" VerticalAlignment="Top" Height="47" Width="177" FontSize="20"/>
+        <ComboBox HorizontalAlignment="Left" Margin="248,71,0,0" VerticalAlignment="Top" Width="138">
+            <ComboBoxItem>Galletas</ComboBoxItem>
+            <ComboBoxItem>Helado</ComboBoxItem>
+            <ComboBoxItem>Sabritas</ComboBoxItem>
+            <ComboBoxItem>Pan Dulce</ComboBoxItem>
+            <ComboBoxItem>Chicles</ComboBoxItem>
+            <ComboBoxItem>Refrescos</ComboBoxItem>
+
+        </ComboBox>
+        <Grid HorizontalAlignment="Left" Height="258" Margin="56,112,0,0" VerticalAlignment="Top" Width="675"/>
+        <Button Content="Guardar" HorizontalAlignment="Left" Margin="567,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="668,389,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+
+</Window>
