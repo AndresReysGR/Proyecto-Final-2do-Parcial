@@ -24,5 +24,37 @@ namespace TIendita
         {
             InitializeComponent();
         }
+
+        private void BtnAgrgar_Click(object sender, RoutedEventArgs e)
+        {
+            grdContenido.Children.Clear();
+            switch (cbCategorias.SelectedIndex)
+            {
+                case 0:
+                    grdContenido.Children.Add(new UserControl());
+                    break;
+                
+            }
+            btnGuardar.Visibility = Visibility.Visible;
+            btnCancelar.Visibility = Visibility.Visible;
+        }
+
+        private void BtnGuardar_Click(object sender, RoutedEventArgs e)
+        {
+            grdContenido.Children.Clear();
+            btnGuardar.Visibility = Visibility.Hidden;
+            btnCancelar.Visibility = Visibility.Hidden;
+        }
+
+        private void BtnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            grdContenido.Children.Clear();
+            btnGuardar.Visibility = Visibility.Hidden;
+            btnCancelar.Visibility = Visibility.Hidden;
+        }
     }
 }
+
+
+
+           

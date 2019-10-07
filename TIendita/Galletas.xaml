@@ -15,16 +15,22 @@
         <Label Content="En venta: " HorizontalAlignment="Left" Margin="31,130,0,0" VerticalAlignment="Top"/>
         <Label Content="Tamaño del Paquete: " HorizontalAlignment="Left" Margin="31,161,0,0" VerticalAlignment="Top"/>
         <Label Content="Calidad: " HorizontalAlignment="Left" Margin="31,192,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="96,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="96,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="153,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="96,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="374,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <RadioButton Content="Si" HorizontalAlignment="Left" Margin="97,136,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="No" HorizontalAlignment="Left" Margin="171,136,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Pequeño" HorizontalAlignment="Left" Margin="171,167,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Mediano" HorizontalAlignment="Left" Margin="255,167,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Grande" HorizontalAlignment="Left" Margin="342,167,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMarca" HorizontalAlignment="Left" Height="23" Margin="96,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCosto" HorizontalAlignment="Left" Height="23" Margin="96,68,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtExportacion" HorizontalAlignment="Left" Height="23" Margin="153,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCalidad" HorizontalAlignment="Left" Height="23" Margin="96,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtConvenio" HorizontalAlignment="Left" Height="23" Margin="374,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rbtnSi" Content="Si" HorizontalAlignment="Left" Margin="97,136,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnNo" Content="No" HorizontalAlignment="Left" Margin="171,136,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnPequeño" Content="Pequeño" HorizontalAlignment="Left" Margin="171,167,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnMediano" Content="Mediano" HorizontalAlignment="Left" Margin="255,167,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="btnGrande" Content="Grande" HorizontalAlignment="Left" Margin="342,167,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbChocolate" Content="Chocolate" HorizontalAlignment="Left" Margin="355,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbFresa" Content="Fresa" HorizontalAlignment="Left" Margin="442,110,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbVainilla" Content="Vainilla" HorizontalAlignment="Left" Margin="355,110,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbLimon" Content="Limon" HorizontalAlignment="Left" Margin="529,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbPiña" Content="Piña" HorizontalAlignment="Left" Margin="442,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbCoco" Content="Coco" HorizontalAlignment="Left" Margin="529,113,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </UserControl>
