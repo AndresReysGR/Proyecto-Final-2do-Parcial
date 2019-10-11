@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace TIendita
 {
     /// <summary>
-    /// Lógica de interacción para Galletas.xaml
+    /// Lógica de interacción para Sabritas.xaml
     /// </summary>
-    public partial class Galletas : UserControl
+    public partial class Sabritas : UserControl
     {
-        public Galletas()
+        public Sabritas()
         {
             InitializeComponent();
         }

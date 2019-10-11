@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace TIendita
 {
     /// <summary>
-    /// Lógica de interacción para Galletas.xaml
+    /// Lógica de interacción para Chicles.xaml
     /// </summary>
-    public partial class Galletas : UserControl
+    public partial class Chicles : UserControl
     {
-        public Galletas()
+        public Chicles()
         {
             InitializeComponent();
+        }
+
+        private void CbChocolate_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

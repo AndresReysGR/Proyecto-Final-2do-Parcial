@@ -55,9 +55,34 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Galletas.xaml.cs">
-      <DependentUpon>Galletas.xaml</DependentUpon>
+    <Compile Include="Chicles.xaml.cs">
+      <DependentUpon>Chicles.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Chocolates.xaml.cs">
+      <DependentUpon>Chocolates.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Refresco.xaml.cs">
+      <DependentUpon>Refresco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sabritas.xaml.cs">
+      <DependentUpon>Sabritas.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Chicles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Chocolates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Galletas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Helado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -66,11 +91,21 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Galletas.xaml.cs">
+      <DependentUpon>Galletas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helado.xaml.cs">
+      <DependentUpon>Helado.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Galletas.xaml">
+    <Page Include="Refresco.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sabritas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

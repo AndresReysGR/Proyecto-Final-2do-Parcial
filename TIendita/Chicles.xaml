@@ -1,10 +1,10 @@
-﻿<UserControl x:Class="TIendita.Galletas"
+﻿<UserControl x:Class="TIendita.Chicles"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TIendita"
-                mc:Ignorable="d" 
+            mc:Ignorable="d" 
              d:DesignHeight="258" d:DesignWidth="675">
     <Grid>
         <Label Content="Sabor: " HorizontalAlignment="Left" Margin="303,73,0,0" VerticalAlignment="Top"/>
@@ -23,12 +23,12 @@
         <RadioButton x:Name="rbtnPequeño" Content="Pequeño" HorizontalAlignment="Left" Margin="171,167,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rbtnMediano" Content="Mediano" HorizontalAlignment="Left" Margin="255,167,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="btnGrande" Content="Grande" HorizontalAlignment="Left" Margin="342,167,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbChocolate" Content="Chocolate" HorizontalAlignment="Left" Margin="355,84,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbFresa" Content="Fresa" HorizontalAlignment="Left" Margin="442,110,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbVainilla" Content="Vainilla" HorizontalAlignment="Left" Margin="355,110,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbLimon" Content="Limon" HorizontalAlignment="Left" Margin="529,84,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbPiña" Content="Piña" HorizontalAlignment="Left" Margin="442,84,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbCoco" Content="Coco" HorizontalAlignment="Left" Margin="529,113,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbChocolate" Content="Freza" HorizontalAlignment="Left" Margin="355,84,0,0" VerticalAlignment="Top" Checked="CbChocolate_Checked"/>
+        <CheckBox x:Name="cbFresa" Content="Piña" HorizontalAlignment="Left" Margin="442,110,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbVainilla" Content="Cafe" HorizontalAlignment="Left" Margin="355,110,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbLimon" Content="Mora" HorizontalAlignment="Left" Margin="529,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbPiña" Content="Naranja" HorizontalAlignment="Left" Margin="442,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbCoco" Content="Sandia" HorizontalAlignment="Left" Margin="529,113,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtVenta" HorizontalAlignment="Left" Height="23" Margin="117,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Visibility="Hidden" x:Name="lblAdvertencia" Content="*Por favor Rellene todos los espacios*" HorizontalAlignment="Left" Margin="246,211,0,0" VerticalAlignment="Top" Width="309" Foreground="#FFE41F1F"/>
 

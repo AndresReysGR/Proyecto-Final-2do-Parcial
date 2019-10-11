@@ -17,7 +17,8 @@ namespace TIendita
 {
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
+ 
+        /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -31,10 +32,31 @@ namespace TIendita
             switch (cbCategorias.SelectedIndex)
             {
                 case 0:
-                    grdContenido.Children.Add(new UserControl());
+                    grdContenido.Children.Add(new Galletas());
                     break;
-                
+                case 1:
+                    grdContenido.Children.Add(new Chicles());
+                    break;
+                case 2:
+                    grdContenido.Children.Add(new Chocolates());
+                    break;
+                case 3:
+                    grdContenido.Children.Add(new Helado());
+                    break;
+                case 4:
+                    grdContenido.Children.Add(new Refresco());
+                    break;
+                case 5:
+                    grdContenido.Children.Add(new Sabritas());
+                    break;
+
+                default:
+                    break;
             }
+
+         
+
+
             btnGuardar.Visibility = Visibility.Visible;
             btnCancelar.Visibility = Visibility.Visible;
         }

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace TIendita
 {
     /// <summary>
-    /// Lógica de interacción para Galletas.xaml
+    /// Lógica de interacción para Chocolates.xaml
     /// </summary>
-    public partial class Galletas : UserControl
+    public partial class Chocolates : UserControl
     {
-        public Galletas()
+        public Chocolates()
         {
             InitializeComponent();
         }
