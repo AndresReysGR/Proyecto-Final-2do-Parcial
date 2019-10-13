@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:TIendita"
              mc:Ignorable="d" 
              d:DesignHeight="258" d:DesignWidth="675">
-    <Grid>
+    <Grid x:Name="grdRefrescos">
         <Label Content="Sabor: " HorizontalAlignment="Left" Margin="303,73,0,0" VerticalAlignment="Top"/>
         <Label Content="Convenio: " HorizontalAlignment="Left" Margin="303,40,0,0" VerticalAlignment="Top"/>
         <Label Content="Marca: " HorizontalAlignment="Left" Margin="31,40,0,0" VerticalAlignment="Top"/>
@@ -15,11 +15,11 @@
         <Label Content="En venta: " HorizontalAlignment="Left" Margin="31,130,0,0" VerticalAlignment="Top"/>
         <Label Content="Tamaño del Paquete: " HorizontalAlignment="Left" Margin="31,161,0,0" VerticalAlignment="Top"/>
         <Label Content="Calidad: " HorizontalAlignment="Left" Margin="31,192,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtMarca" HorizontalAlignment="Left" Height="23" Margin="96,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCosto" HorizontalAlignment="Left" Height="23" Margin="96,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtExportacion" HorizontalAlignment="Left" Height="23" Margin="153,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtCalidad" HorizontalAlignment="Left" Height="23" Margin="96,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtConvenio" HorizontalAlignment="Left" Height="23" Margin="374,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMarca" HorizontalAlignment="Left" Height="23" Margin="96,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtMarca_TextChanged"/>
+        <TextBox x:Name="txtCosto" HorizontalAlignment="Left" Height="23" Margin="96,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtCosto_TextChanged"/>
+        <TextBox x:Name="txtExportacion" HorizontalAlignment="Left" Height="23" Margin="153,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtExportacion_TextChanged"/>
+        <TextBox x:Name="txtCalidad" HorizontalAlignment="Left" Height="23" Margin="96,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtCalidad_TextChanged"/>
+        <TextBox x:Name="txtConvenio" HorizontalAlignment="Left" Height="23" Margin="374,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtConvenio_TextChanged"/>
         <RadioButton x:Name="rbtnPequeño" Content="Pequeño" HorizontalAlignment="Left" Margin="171,167,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rbtnMediano" Content="Mediano" HorizontalAlignment="Left" Margin="255,167,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="btnGrande" Content="Grande" HorizontalAlignment="Left" Margin="342,167,0,0" VerticalAlignment="Top"/>
@@ -29,8 +29,11 @@
         <CheckBox x:Name="cbLimon" Content="Limon" HorizontalAlignment="Left" Margin="529,84,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbPiña" Content="Toronja" HorizontalAlignment="Left" Margin="442,84,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbCoco" Content="Mineral" HorizontalAlignment="Left" Margin="529,113,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtVenta" HorizontalAlignment="Left" Height="23" Margin="117,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtVenta" HorizontalAlignment="Left" Height="23" Margin="117,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TxtVenta_TextChanged"/>
         <Label Visibility="Hidden" x:Name="lblAdvertencia" Content="*Por favor Rellene todos los espacios*" HorizontalAlignment="Left" Margin="246,211,0,0" VerticalAlignment="Top" Width="309" Foreground="#FFE41F1F"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="462,180,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="571,180,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click"/>
+
 
     </Grid>
 </UserControl>

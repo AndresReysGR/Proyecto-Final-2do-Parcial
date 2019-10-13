@@ -54,26 +54,13 @@ namespace TIendita
                     break;
             }
 
-         
+           
 
 
-            btnGuardar.Visibility = Visibility.Visible;
-            btnCancelar.Visibility = Visibility.Visible;
+
         }
 
-        private void BtnGuardar_Click(object sender, RoutedEventArgs e)
-        {
-            grdContenido.Children.Clear();
-            btnGuardar.Visibility = Visibility.Hidden;
-            btnCancelar.Visibility = Visibility.Hidden;
-        }
-
-        private void BtnCancelar_Click(object sender, RoutedEventArgs e)
-        {
-            grdContenido.Children.Clear();
-            btnGuardar.Visibility = Visibility.Hidden;
-            btnCancelar.Visibility = Visibility.Hidden;
-        }
+       
     }
 }
 

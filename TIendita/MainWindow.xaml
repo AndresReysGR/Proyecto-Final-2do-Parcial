@@ -15,17 +15,16 @@
         <Label Content="Don Reyes" HorizontalAlignment="Left" Margin="304,10,0,0" VerticalAlignment="Top" Height="47" Width="177" FontSize="20" Grid.RowSpan="2"/>
         <ComboBox x:Name="cbCategorias" HorizontalAlignment="Left" Margin="248,71,0,0" VerticalAlignment="Top" Width="138" Grid.RowSpan="2">
             <ComboBoxItem>Galletas</ComboBoxItem>
-            <ComboBoxItem>Helado</ComboBoxItem>
-            <ComboBoxItem>Sabritas</ComboBoxItem>
-            <ComboBoxItem>Chocolates</ComboBoxItem>
             <ComboBoxItem>Chicles</ComboBoxItem>
+            <ComboBoxItem>Chocolates</ComboBoxItem>
+            <ComboBoxItem>Helado</ComboBoxItem>
             <ComboBoxItem>Refrescos</ComboBoxItem>
+            <ComboBoxItem>Sabritas</ComboBoxItem>
 
         </ComboBox>
         <Grid x:Name="grdContenido" HorizontalAlignment="Left" Height="258" Margin="56,112,0,0" VerticalAlignment="Top" Width="675" Grid.RowSpan="2"/>
-        <Button Visibility="Hidden" x:Name="btnGuardar"  Content="Guardar" HorizontalAlignment="Left" Margin="569,375,0,0" VerticalAlignment="Top" Width="75" Click="BtnGuardar_Click" Grid.RowSpan="2"/>
-        <Button Visibility="Hidden" x:Name="btnCancelar"   Content="Cancelar" HorizontalAlignment="Left" Margin="656,375,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancelar_Click" Grid.RowSpan="2"/>
         <Button x:Name="btnAgrgar"   Content="Agregar" HorizontalAlignment="Left" Margin="429,73,0,0" VerticalAlignment="Top" Width="75" Click="BtnAgrgar_Click" Grid.RowSpan="2"/>
+       
 
     </Grid>
 
